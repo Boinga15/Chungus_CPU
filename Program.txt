@@ -1,0 +1,16 @@
+LDAV 57
+STA 0
+OUTL Enter a number to guess (the number is between 0 and 100):
+INP
+STA 1
+RSUB 0
+BRP 9
+BRN 11
+BRZ 13
+OUTL Too high!
+BRA 2
+OUTL Too low!
+BRA 2
+OUTL You got it!
+PAUS
+HLT 
