@@ -1,7 +1,7 @@
 # Chungus_CPU
 A CPU "Emulator" that uses a custom programming language and can run basic programs. It is the first CPU/Emulator I made.
 
-The Chungus CPU runs automatically when the program is run. It uses a seperante RAM file that holds a list of instructions taken from the "program.txt" file in order to run programs. It uses a programming language that is similar to Assembly Language and the language of other CPUs, however it also contains several other functions like multiplication as well as printing lines of text to the screen since I didn't use binary to represent the data.
+The Chungus CPU runs automatically when the program is run. It uses a seperate RAM file that holds a list of instructions taken from the "program.txt" file in order to run programs. It uses a programming language that is similar to Assembly Language and the language of other CPUs, however it also contains several other functions like multiplication as well as printing lines of text to the screen since I didn't use binary to represent the data.
 
 The CPU has 20 general registers that can be used to temporarly save data. It uses the Von Neumann structure to run. At the moment, it doesn't use any cache however and can only process one command at a time. It's clock speed (or amount of commands it processes per second) was 7310Hz (7.31 KHz) when I checked it on my computer. It may be different however if your computer is stronger/weaker than my.
 
